@@ -19,7 +19,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 256m
+          memory: 512m
   cloudflared:
     image: cloudflare/cloudflared:2024.11.0@sha256:2c78df02e1f23ab19d4c636921f05b9ebec163b887e946f98e22e56254a5540f
     hostname: cloudflared
